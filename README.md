@@ -29,11 +29,3 @@ How to Run Locally
 
     Open index.html in any modern web browser
 
-Optional: Short submission message for your assignment portal or email
-
-    Here is my Front-End Developer assignment submission:
-    A responsive NGO-inspired website called GreenSteps featuring a Home page, Volunteer Form with validation, and About Us section.
-    The project uses Bootstrap 5 and custom styles, is fully responsive, and deployed live via GitHub Pages.
-
-    GitHub Repo: https://github.com/Sayan-1123/GreenSteps
-    Live Site: https://sayan-1123.github.io/GreenSteps/

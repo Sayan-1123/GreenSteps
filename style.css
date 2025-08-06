@@ -1,0 +1,138 @@
+/* General typography */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9fafb;
+  color: #333;
+  scroll-behavior: smooth;
+}
+  
+/* Navbar custom styles */
+.navbar-custom {
+  background: linear-gradient(90deg, #0d6efd 0%, #198754 100%);
+  box-shadow: 0 2px 8px rgba(13, 110, 253, 0.3);
+}
+.navbar-custom .navbar-brand {
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+.nav-links .nav-link {
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+.nav-links .nav-link:hover,
+.nav-links .nav-link.active {
+  color: #ffc107 !important;
+}
+
+/* Hero Section */
+.hero-section {
+  height: 100vh;
+  background: url('https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+  position: relative;
+  padding-top: 100px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+.hero-section .btn-primary {
+  background-color: #ffc107;
+  border: none;
+  color: #212529;
+  font-weight: 700;
+  padding: 12px 30px;
+  box-shadow: 0 4px 8px rgb(255 193 7 / 0.5);
+  transition: background-color 0.3s ease;
+}
+.hero-section .btn-primary:hover {
+  background-color: #e0a800;
+  color: #fff;
+}
+
+/* Volunteer Form */
+.volunteer-form {
+  max-width: 700px;
+  margin: 0 auto;
+  border: 1px solid #dee2e6;
+}
+.volunteer-form label {
+  font-size: 1rem;
+  color: #495057;
+}
+.volunteer-form input,
+.volunteer-form select,
+.volunteer-form textarea {
+  border-radius: 8px;
+  border: 1.5px solid #ced4da;
+  padding: 0.7rem 1rem;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+.volunteer-form input:focus,
+.volunteer-form select:focus,
+.volunteer-form textarea:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 5px #0d6efd88;
+  outline: none;
+}
+.btn-submit {
+  font-size: 1.2rem;
+  padding: 0.75rem 2.5rem;
+  border-radius: 50px;
+  transition: transform 0.2s ease;
+}
+.btn-submit:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(25, 135, 84, 0.4);
+}
+
+/* About Section */
+.about-section {
+  background: linear-gradient(135deg, #e0f7fa, #b2ebf2);
+}
+.about-text {
+  font-size: 1.2rem;
+  max-width: 900px;
+  margin-bottom: 2rem;
+}
+.about-card {
+  background: white;
+  border-left: 6px solid #0d6efd;
+  transition: box-shadow 0.3s ease;
+}
+.about-card:hover {
+  box-shadow: 0 8px 20px rgba(13, 110, 253, 0.3);
+}
+.about-card h4 {
+  font-weight: 700;
+  color: #0d6efd;
+}
+.about-card p {
+  color: #555;
+}   
+
+/* Footer */
+.footer-custom {
+  background-color: #212529;
+  color: #adb5bd;
+  font-size: 0.9rem;
+  letter-spacing: 0.02em;
+}
+
+/* Responsive spacing & font sizes */
+@media (max-width: 767.98px) {
+  .hero-section .display-3 {
+    font-size: 2.5rem;
+  }
+  .volunteer-form {
+    padding: 20px !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+  .about-card {
+    border-left: none;
+  }
+}
+.error-message {
+  font-style: italic;
+  color: #dc3545;
+}
+
